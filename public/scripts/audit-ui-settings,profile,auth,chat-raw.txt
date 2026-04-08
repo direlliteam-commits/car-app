@@ -1,0 +1,5 @@
+```json
+{
+  "auth.orContinueWith": "կամ մուտք գործել"
+}
+```

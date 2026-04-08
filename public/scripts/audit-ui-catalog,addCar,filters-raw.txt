@@ -1,0 +1,20 @@
+```json
+{
+  "catalog.recommended": "Խորհուրդ տրվողներ",
+  "catalog.new": "Նորեր",
+  "catalog.popular": "Հանրաճանաչ",
+  "catalog.promoted": "Գովազդվողներ",
+  "catalog.accessSearchAndFilters": "Որոնում և ֆիլտրեր",
+  "catalog.featuredDealers": "Խորհուրդ տրվող դիլերներ",
+  "catalog.newCars": "Նորեր",
+  "catalog.trucks": "Բեռնատարներ",
+  "filters.yearFrom": "Տարի (սկսած)",
+  "filters.yearTo": "Տարի (մինչև)",
+  "filters.priceFrom": "Գին (սկսած)",
+  "filters.priceTo": "Գին (մինչև)",
+  "filters.mileageFrom": "Վազք (սկսած)",
+  "filters.mileageTo": "Վազք (մինչև)",
+  "filters.engineVolumeFrom": "Ծավալ (սկսած)",
+  "filters.engineVolumeTo": "Ծավալ (մինչև)",
+  "filters.truckDesc": "Բեռնատար, ֆուրգոն, պիկապ, քարշակ...",
+  "filters.selectTypeHint": "Ը

@@ -1,0 +1,14 @@
+```json
+{
+  "wallet.topUpForPromotion": "Լիցքավորե՛ք դրամապանակը գովազդի վճարման համար",
+  "notifications.markAllRead": "Նշել բոլորը որպես կարդացված",
+  "promote.unlimitedDesc": "Անսահմանափակ գովազդումները ներառված են ձեր դիլերական փաթեթում",
+  "promote.quotaThisMonth": "այս ամսին",
+  "promote.onDays": "",
+  "promote.daysUnit": "օրով",
+  "promote.remainingFree": "Մնացած անվճար գովազդումներ",
+  "promote.featureTurboCardStyle": "Ամբողջ լայնությամբ քարտ ցանցում",
+  "promote.featureSimilarPriority": "Առաջին ցուցադրումը «Նմանատիպ ավտոներ» բաժնում",
+  "dealerPlans.title": "Դիլերի պլաններ",
+  "dealerPlans.heroSubtitle": "Բաժանորդագրություն պրոֆեսիոնալ դիլերների համար",
+  "dealerPlans.infoDealer": "Պլանը փոխելիս ընթացիկ բաժանորդագրությունը փոխարինվում է նորով։

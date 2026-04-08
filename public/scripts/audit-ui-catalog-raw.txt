@@ -1,0 +1,13 @@
+```json
+{
+  "catalog.allBrands": "Բոլոր ապրանքանիշերը",
+  "catalog.recommended": "Առաջարկվող",
+  "catalog.new": "Նոր",
+  "catalog.popular": "Հանրաճանաչ",
+  "catalog.featuredDealers": "Առաջարկվող դիլերներ",
+  "catalog.used": "Վազքով",
+  "catalog.noResultsSubtitleWithReset": "Փորձեք փոխել որոնման պարամետրերը կամ մաքրել ֆիլտրերը",
+  "catalog.newCars": "Նոր",
+  "catalog.usedCars": "Վազքով"
+}
+```
