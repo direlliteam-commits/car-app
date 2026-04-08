@@ -1,0 +1,6 @@
+```json
+{
+  "settings.shareApp": "Տարածել հավելվածը",
+  "settings.shareMessage": "AutoArmenia — ավտոմեքենաների շուկա Հայաստանում։ Բեռնեք հավելվածը։ https://autoarmenia.am"
+}
+```

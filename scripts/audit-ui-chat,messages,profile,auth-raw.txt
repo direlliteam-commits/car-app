@@ -1,0 +1,7 @@
+```json
+{
+  "profile.autoRenew": "Ինքնաերկարացում",
+  "profile.freePromos": "Անվճար պրոմոներ",
+  "profile.carsCount": "ավտոմեքենաներ"
+}
+```

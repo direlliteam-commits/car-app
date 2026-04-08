@@ -1,0 +1,7 @@
+```json
+{
+  "vehicle.characteristics_liquid": "Պահանջված",
+  "vehicle.characteristics_manyOptions": "Շատ օպցիաներ",
+  "vehicle.characteristics_prestigious": "Հեղինակավոր"
+}
+```
