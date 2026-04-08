@@ -1,0 +1,30 @@
+diff --git a/node_modules/expo-font/build/ExpoFontLoader.web.js b/node_modules/expo-font/build/ExpoFontLoader.web.js
+index abcdef1..1234567 100644
+--- a/node_modules/expo-font/build/ExpoFontLoader.web.js
++++ b/node_modules/expo-font/build/ExpoFontLoader.web.js
+@@ -131,14 +131,18 @@ const ExpoFontLoader = {
+         if (!res.length) {
+             _createWebStyle(fontFamilyName, resource);
+         }
+-        if (!isFontLoadingListenerSupported()) {
+-            return Promise.resolve();
++        if (typeof FontFace !== 'undefined') {
++            try {
++                var fontDisplay = resource.display || 'swap';
++                var fontFace = new FontFace(fontFamilyName, 'url("' + resource.uri + '")', {
++                    display: fontDisplay,
++                });
++                document.fonts.add(fontFace);
++                return fontFace.load();
++            } catch (e) {
++                return Promise.resolve();
++            }
+         }
+-        return new FontObserver(fontFamilyName, {
+-            // @ts-expect-error: TODO(@kitten): Typings indicate that the polyfill may not support this?
+-            display: resource.display,
+-        }).load(null, 6000);
++        return Promise.resolve();
+     },
+ };
+ const isServer = process.env.EXPO_OS === 'web' && typeof window === 'undefined';
